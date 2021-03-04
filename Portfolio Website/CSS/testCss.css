@@ -1,0 +1,11 @@
+.targeted-div{
+    transition: all 2s ease-in-out;
+}
+
+.targeted-div:target{
+    height: 10rem;
+    width: 30%;
+    background: yellow;
+    margin: 10rem;
+    display: block;
+}
